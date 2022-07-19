@@ -1,0 +1,118 @@
+{
+	"Errors": [],
+	"id": "_8ihb1xtra",
+	"name": "Testing",
+	"description": "Intial Contract Testing",
+	"company": "UA AVS",
+	"client": "UA",
+	"author": "JG",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_8ihb1xtra",
+			"id": "_x0l16tvlt",
+			"componentId": "_admvneh0e",
+			"instanceName": "Room",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_8ihb1xtra",
+			"id": "_admvneh0e",
+			"name": "Room",
+			"description": "Room Properties",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Power_On_Fb",
+					"siblingId": "_qzib00137",
+					"dataType": 1,
+					"notes": "",
+					"id": "_dpup21ktz",
+					"parentId": "_admvneh0e",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Power_Off_Fb",
+					"siblingId": "_1zw458pxh",
+					"dataType": 1,
+					"notes": "",
+					"id": "_kliiq4yzl",
+					"parentId": "_admvneh0e",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Mode_Fb",
+					"siblingId": "_elelafgh7",
+					"dataType": 2,
+					"notes": "",
+					"id": "_3stew80e5",
+					"parentId": "_admvneh0e",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Name_Fb",
+					"siblingId": "_f081ig8gd",
+					"dataType": 3,
+					"notes": "",
+					"id": "_aze26ykwn",
+					"parentId": "_admvneh0e",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "Power_On",
+					"siblingId": "_dpup21ktz",
+					"dataType": 1,
+					"notes": "",
+					"id": "_qzib00137",
+					"parentId": "_admvneh0e",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Power_Off",
+					"siblingId": "_kliiq4yzl",
+					"dataType": 1,
+					"notes": "",
+					"id": "_1zw458pxh",
+					"parentId": "_admvneh0e",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Mode",
+					"siblingId": "_3stew80e5",
+					"dataType": 2,
+					"notes": "",
+					"id": "_elelafgh7",
+					"parentId": "_admvneh0e",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_aze26ykwn",
+					"dataType": 0,
+					"notes": "",
+					"id": "_f081ig8gd",
+					"parentId": "_admvneh0e",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}

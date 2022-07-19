@@ -1,0 +1,45 @@
+{
+	"name": "Testing",
+	"timestamp": "2022-07-19 09:47:55.476",
+	"version": "1.0.0.0",
+	"schema_version": 1,
+	"extra_value": "Intial Contract Testing",
+	"signals": {
+		"states": {
+			"boolean": {
+				"1": {
+					"1": "Room.Power_On_Fb",
+					"2": "Room.Power_Off_Fb"
+				}
+			},
+			"numeric": {
+				"1": {
+					"1": "Room.Mode_Fb"
+				}
+			},
+			"string": {
+				"1": {
+					"1": "Room.Name_Fb"
+				}
+			}
+		},
+		"events": {
+			"boolean": {
+				"Room.Power_On": {
+					"joinId": 1,
+					"smartObjectId": 1
+				},
+				"Room.Power_Off": {
+					"joinId": 2,
+					"smartObjectId": 1
+				}
+			},
+			"numeric": {
+				"Room.Mode": {
+					"joinId": 1,
+					"smartObjectId": 1
+				}
+			}
+		}
+	}
+}
