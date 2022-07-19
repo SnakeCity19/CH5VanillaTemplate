@@ -11,3 +11,5 @@ SPlsWork/
 *.zip
 # HTML5
 node_modules/
+dist/
+archive/

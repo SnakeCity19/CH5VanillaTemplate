@@ -1,9 +1,13 @@
-document.addEventListener('DOMContentLoaded', function () {
-    let content = document.querySelector('.content');
-     
-    let msg = document.createElement('h2');
-    msg.innerText = '(JS is working)';
-    console.log(msg);
+import {
+    publishEvent,
+    subscribeState,
+    bridgeReceiveIntegerFromNative,
+    bridgeReceiveBooleanFromNative,
+    bridgeReceiveStringFromNative,
+    bridgeReceiveObjectFromNative
+} from '@crestron/ch5-crcomlib/build_bundles/cjs/cr-com-lib';
  
-    content.appendChild(msg);
-});
+window.bridgeReceiveIntegerFromNative = bridgeReceiveIntegerFromNative;
+window.bridgeReceiveBooleanFromNative = bridgeReceiveBooleanFromNative;
+window.bridgeReceiveStringFromNative = bridgeReceiveStringFromNative;
+window.bridgeReceiveObjectFromNative = bridgeReceiveObjectFromNative;
