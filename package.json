@@ -1,0 +1,22 @@
+{
+  "name": "ch5vanillatemplate",
+  "version": "1.0.0",
+  "description": "CH5VanillaTutorial",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snakecity19/ch5vanillatemplate.git"
+  },
+  "author": "JG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/snakecity19/ch5vanillatemplate/issues"
+  },
+  "homepage": "https://github.com/snakecity19/ch5vanillatemplate#readme",
+  "dependencies": {
+    "@crestron/ch5-crcomlib": "^1.2.0"
+  }
+}
