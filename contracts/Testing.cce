@@ -33,7 +33,7 @@
 					"name": "Power_On_Fb",
 					"siblingId": "_qzib00137",
 					"dataType": 1,
-					"notes": "",
+					"notes": "Power State Testing",
 					"id": "_dpup21ktz",
 					"parentId": "_admvneh0e",
 					"attributeType": 0

@@ -11,7 +11,7 @@ Schema=1
 ProjectFile=Testing
 ContractID=_8ihb1xtra
 CEProjectVer=1.0.0.0
-DateTimeUTC=2022-07-19 09:47:55.486
+DateTimeUTC=2022-07-19 09:52:00.742
 Cmn1=Intial Contract Testing
 ]
 [
@@ -45,6 +45,7 @@ Render=8
 InputCue1=Power_On_Fb
 InputSigType1=Digital
 SmplCInputCue1=_dpup21ktz
+InputToolTip1=Power State Testing
 InputCue2=Power_Off_Fb
 InputSigType2=Digital
 SmplCInputCue2=_kliiq4yzl

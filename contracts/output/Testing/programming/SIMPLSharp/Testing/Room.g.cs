@@ -6,6 +6,9 @@ using Crestron.SimplSharpPro;
 
 namespace Testing
 {
+    /// <summary>
+    /// Power State Testing
+    /// </summary>
     public interface IRoom
     {
         object UserObject { get; set; }
