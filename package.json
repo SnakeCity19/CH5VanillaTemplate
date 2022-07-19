@@ -4,7 +4,10 @@
   "description": "CH5VanillaTutorial",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "build": "webpack",
+    "copy": "copyfiles -u 1 src/index.html src/style.css dist",
+    "archive": "ch5-cli archive -p project -d dist -o archive -c ./contracts/output/Testing/interface/mapping/Testing.cse2j",
+    "onestep": "npm run build && npm run archive && npm run copy"
   },
   "repository": {
     "type": "git",
