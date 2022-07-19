@@ -17,7 +17,8 @@
   },
   "homepage": "https://github.com/snakecity19/ch5vanillatemplate#readme",
   "dependencies": {
-    "@crestron/ch5-crcomlib": "^1.2.0"
+    "@crestron/ch5-crcomlib": "^1.2.0",
+    "@crestron/ch5-webxpanel": "^1.2.5"
   },
   "devDependencies": {
     "webpack": "^5.73.0",
